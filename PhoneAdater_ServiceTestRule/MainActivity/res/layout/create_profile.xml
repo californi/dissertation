@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<View android:layout_height="20dip" android:layout_width="fill_parent" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/profile_name" />
+	<EditText android:id="@+id/profile_name_textbox"
+		android:singleLine="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" />
+	<View android:layout_height="2dip" android:layout_width="fill_parent"
+		android:background="@color/grey" android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/ring_volume" />
+	<SeekBar android:id="@+id/ring_volume_seekbar"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<View android:layout_height="2dip" android:layout_width="fill_parent"
+		android:background="@color/grey" android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/vibration" />
+		<ToggleButton android:id="@+id/vibration_toggle_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginLeft="20dip" />
+	</LinearLayout>
+	<View android:layout_height="2dip" android:layout_width="fill_parent"
+		android:background="@color/grey" android:layout_marginTop="10dip"
+		android:layout_marginBottom="10dip" />
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/airplane_mode" />
+		<ToggleButton android:id="@+id/airplane_mode_toggle_button"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:layout_marginRight="20dip" />
+	</LinearLayout>
+	<View android:layout_height="30dip" android:layout_width="fill_parent"/>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button android:id="@+id/create_profile_confirm_btn" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/confirm"
+		/>
+		<Button android:id="@+id/create_profile_cancel_btn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="@string/cancel"
+		/>
+	</LinearLayout>
+	
+
+
+</LinearLayout>

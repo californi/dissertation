@@ -1,0 +1,141 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity
+              -      -                                                                         
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* License.txt
+* _DS_Store
+* _classpath
+* _project
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\edu\
+* app\src\main\java\edu\hkust\
+* app\src\main\java\edu\hkust\cse\
+* app\src\main\java\edu\hkust\cse\phoneAdapter\
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\CreateContextConstantActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\CreateFilterActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\CreateProfileActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\CreateRuleActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\EditFilterActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\EditProfileActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\EditRuleActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\MainActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\SearchAndSaveBTDevice.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\ViewProfileActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\activity\ViewRuleActivity.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\AdaptationManager.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\ContextManager.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\ContextName.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\ContextOperator.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\context\ContextType.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\database\
+* app\src\main\java\edu\hkust\cse\phoneAdapter\database\MyDbAdapter.java
+* app\src\main\java\edu\hkust\cse\phoneAdapter\database\MyDbHelper.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\bt_device_item.xml
+* app\src\main\res\layout\create_filter.xml
+* app\src\main\res\layout\create_profile.xml
+* app\src\main\res\layout\create_rule.xml
+* app\src\main\res\layout\disable_rule_item.xml
+* app\src\main\res\layout\edit_profile.xml
+* app\src\main\res\layout\filter_item.xml
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\profile_item.xml
+* app\src\main\res\layout\profiles_list.xml
+* app\src\main\res\layout\record_context.xml
+* app\src\main\res\layout\rule_item.xml
+* app\src\main\res\layout\rule_list.xml
+* app\src\main\res\layout\search_and_save_bt_device.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\resources\
+* app\src\main\resources\_DS_Store
+* app\src\main\resources\edu\
+* app\src\main\resources\edu\_DS_Store
+* app\src\main\resources\edu\hkust\
+* app\src\main\resources\edu\hkust\_DS_Store
+* app\src\main\resources\edu\hkust\cse\
+* app\src\main\resources\edu\hkust\cse\_DS_Store
+* app\src\main\resources\edu\hkust\cse\phoneAdapter\
+* app\src\main\resources\edu\hkust\cse\phoneAdapter\_DS_Store
+* app\src\main\resources\edu\hkust\cse\phoneAdapter\activity\
+* app\src\main\resources\edu\hkust\cse\phoneAdapter\activity\_DS_Store
+* build.gradle
+* default.properties
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard.cfg.txt
+* readme.txt
+* settings.gradle
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* src\_DS_Store => app\src\main\resources\_DS_Store
+* src\edu\_DS_Store => app\src\main\resources\edu\_DS_Store
+* src\edu\hkust\_DS_Store => app\src\main\resources\edu\hkust\_DS_Store
+* src\edu\hkust\cse\_DS_Store => app\src\main\resources\edu\hkust\cse\_DS_Store
+* src\edu\hkust\cse\phoneAdapter\_DS_Store => app\src\main\resources\edu\hkust\cse\phoneAdapter\_DS_Store
+* src\edu\hkust\cse\phoneAdapter\activity\_DS_Store => app\src\main\resources\edu\hkust\cse\phoneAdapter\activity\_DS_Store
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

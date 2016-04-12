@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\exploded-aar\com.android.support.test\runner\0.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f607369e68cb756b3f8f523403e3d80433a68aa1">
+        <dex dex="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-runner-0.4.1_d5bd2f0668774a0aa7280557d1ee78446ecad1c7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\exploded-aar\com.android.support.test\exposed-instrumentation-api-publish\0.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e1d90a3498ab7a4b68ea6e936e71cf7f4e95453f">
+        <dex dex="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-exposed-instrumentation-api-publish-0.4.1_f6960cd7abc0f7f7fae5f41e187134a1dd303312.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bento Rafael Siqueir\.gradle\caches\modules-2\files-2.1\com.jayway.android.robotium\robotium-solo\5.2.1\56ab8d87d966a067ee3795ee137fbd51b6581ec9\robotium-solo-5.2.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="56ab8d87d966a067ee3795ee137fbd51b6581ec9">
+        <dex dex="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\pre-dexed\androidTest\debug\robotium-solo-5.2.1_8ee8be986690e0fc972cf1dfd740e50d1823a0ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\exploded-aar\com.android.support.test\rules\0.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e4805433aedef15e73a7eedf7e3496eb4363a583">
+        <dex dex="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\pre-dexed\androidTest\debug\com.android.support.test-rules-0.4.1_e9a4f63d933968eaa51ca848deb4bda92ceabd98.jar" />
+    </item>
+    <item
+        jar="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\libs\robotium-solo-5.5.3.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bed043bbd9b9cb38d7070ddbd94033e0757f8f41">
+        <dex dex="C:\Users\Bento Rafael Siqueir\Dropbox\Mestrado\Testing\PhoneAdater_ServiceTestRule\MainActivity\app\build\intermediates\pre-dexed\androidTest\debug\robotium-solo-5.5.3_a2dd3a73e09b0a758a01670895b8e990d848d8cc.jar" />
+    </item>
+
+</items>

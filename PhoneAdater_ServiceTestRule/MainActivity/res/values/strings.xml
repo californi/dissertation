@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Welcome to PhoneAdapter!</string>
+    <string name="app_name">PhoneAdapter</string>
+    <string name="main_btn_create_profiles">Create Profile</string>
+    <string name="main_btn_create_rules">Create Rule</string>
+    <string name="main_btn_view_profiles">View Profiles</string>
+    <string name="main_btn_view_rules">View Rules</string>
+    <string name="create_profile_activity_label">Create Profile</string>
+    <string name="create_rule_activity_label">Create Rule</string>
+    <string name="view_profile_activity_label">View Profiles</string>
+    <string name="view_rules_activity_label">View Rules</string>
+    <string name="ring_volume">Ring Volume</string>
+    <string name="profile_name">Profile Name</string>
+    <string name="vibration">Vibration</string>
+    <color name="grey">#FF909090</color>
+    <string name="airplane_mode">Airplane Mode</string>
+    <string name="no_profile">No profiles yet. Click menu to set new profiles.</string>
+    <string name="no_rule">No rules yet. Click menu to create a new rule.</string>
+    <string name="create_profile_menu_item">New Profile</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_profile_activity_label">Edit Profile</string>
+    <string name="edit_rule_activity_label">Edit Rule</string>
+    <string name="rule_name">Rule Name</string>
+    <string name="add_filter_btn_text">Add Filter</string>
+    <string name="save_rule_btn_text">Save Rule</string>
+    <string name="create_filter_activity_label">Create Filter</string>
+    <string name="edit_filter_activity_label">Edit Filter</string>
+    <string name="context_variable_type">Context Type</string>
+    <string name="context_variable_type_prompt">Choose One Type</string>
+    <string name="context_operator">Operator</string>
+    <string name="context_operator_prompt">Choose One Operator</string>
+    <string name="value">Value</string>
+    <string-array name="context_variable_types"><item>GPS.IsValid</item>
+    <item>GPS.Location</item>
+    <item>GPS.Speed</item>
+    <item>Bluetooth</item>
+    <item>Bluetooth.Count</item>
+    <item>Time</item>
+    <item>Weekday</item>
+    
+    </string-array>
+    <string-array name="context_operators"><item>=</item>
+    <item>!=</item><item>&gt;</item>
+    <item>&gt;=</item>
+    <item>&lt;</item>
+    <item>&lt;=</item>
+    
+    
+    </string-array>
+    <string name="record_context_constant">Record Constant</string>
+    <string name="create_context_constant_activity_label">Create Context Constant</string>
+    <string name="gps_location">GPS Location (in degree, format: double)</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="location_constant_name">Constant Name</string>
+    <string name="fill_in_current_location">Fill in Current Location</string>
+    <string name="save_location">Save Location</string>
+    <string name="bt_device_addr">Bluetooth Device MAC Address</string>
+    <string name="bt_device_name">Device Name</string>
+    <string name="bt_device_mac">MAC Address</string>
+    <string name="detect_device">Search Devices</string>
+    <string name="save_device">Save Device</string>
+    <string name="quit">Quit</string>
+    <string name="search_save_device_activity_label">Bluetooth Devices</string>
+    <string name="save_selected_devices">Save Selected Devices</string>
+    <string name="stop_discovery">Stop Discovery</string>
+    <string name="warning_in_device_discovery">Warning: Bluetooth discovery may refresh the list for a few times, if you want to stop, press the &quot;Stop Discovery&quot; button.</string>
+    <string name="cur_state">Current State</string>
+    <string name="new_state">New State</string>
+    <string name="priority">Priority</string>
+    <string name="choose_state">Choose a state</string>
+    <string name="choose_priority">Choose Priority</string>
+    <string-array name="priority_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="self_define">Self Define</string>
+    <string name="choose_from_db">Choose From Stored Constants</string>
+    <string name="delete">Delete</string>
+    <string name="create_rule_menu_item">Add A New Rule</string>
+    <string name="enable_rule">Enable</string>
+    <string name="disable_rule">Disable</string>
+</resources>

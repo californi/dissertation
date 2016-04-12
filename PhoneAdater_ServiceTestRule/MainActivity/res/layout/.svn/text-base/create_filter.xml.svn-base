@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="match_parent">
+<!-- 	<View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/context_variable_type" />
+	<!-- <View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+	<Spinner android:id="@+id/context_type_spinner"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:prompt="@string/context_variable_type_prompt" />
+	<!-- <View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/context_operator" />
+	<!-- <View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+	<Spinner android:id="@+id/context_op_spinner"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:prompt="@string/context_operator_prompt" />
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/value" />
+	<RadioGroup android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="vertical">
+		<RadioButton android:id="@+id/self_define_radio"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/self_define" android:checked="true" />
+		<RadioButton android:id="@+id/choose_from_db_radio"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:text="@string/choose_from_db" />
+	</RadioGroup>
+	<!-- <View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+	<EditText android:id="@+id/context_value_edit_text"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<Spinner android:id="@+id/context_value_spinner"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	<!-- <View android:layout_width="fill_parent" android:layout_height="10dip" /> -->
+ 	<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" >
+ 	<Button android:id="@+id/confirm_btn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/confirm" android:layout_weight="1"></Button>
+	<Button android:id="@+id/cancel_btn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:text="@string/cancel" android:layout_weight="1" />
+ 	</LinearLayout>
+ 	
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+-keep class edu.hkust.cse.phoneAdapter.activity.MainActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateProfileActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateRuleActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.ViewProfileActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.ViewRuleActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.EditProfileActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.EditRuleActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateFilterActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.EditFilterActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateContextConstantActivity { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.activity.SearchAndSaveBTDevice { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.context.ContextManager { <init>(); }
+-keep class edu.hkust.cse.phoneAdapter.context.AdaptationManager { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

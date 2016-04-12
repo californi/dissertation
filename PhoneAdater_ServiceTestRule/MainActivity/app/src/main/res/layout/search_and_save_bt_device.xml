@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+ <!--  <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/warning_in_device_discovery"/>
+  <Button android:id="@+id/stop_discovery_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stop_discovery"/> -->
+  <ListView android:id="@+id/list_view_in_search_bt_device" android:layout_width="fill_parent" android:layout_height="wrap_content"></ListView>
+  
+  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+  <Button android:id="@+id/save_selected_device" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/save_selected_devices"/>
+  <Button android:id="@+id/cancel_btn_in_search_and_save_bt_devices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/cancel"/>
+  </LinearLayout>
+    
+</LinearLayout>

@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/create_filter.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/create_filter.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/edit_profile.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/edit_profile.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/create_rule.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/create_rule.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/disable_rule_item.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/disable_rule_item.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/record_context.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/record_context.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/profile_item.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/profile_item.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/profiles_list.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/profiles_list.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/filter_item.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/filter_item.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/rule_list.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/rule_list.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/create_profile.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/create_profile.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/rule_item.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/rule_item.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/bt_device_item.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/bt_device_item.xml"
+    },
+    {
+        "merged": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/res/merged/debug/layout/search_and_save_bt_device.xml",
+        "source": "/home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/src/main/res/layout/search_and_save_bt_device.xml"
+    }
+]

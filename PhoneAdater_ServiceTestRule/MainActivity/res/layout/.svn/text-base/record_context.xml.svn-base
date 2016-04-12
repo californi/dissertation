@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  	<View android:layout_width="fill_parent" android:layout_height="10dip"></View>
+    <TextView android:text="@string/gps_location"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<TextView android:text="@string/location_constant_name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0"/>
+    	<EditText android:id="@+id/location_name_textbox_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<TextView android:text="@string/latitude" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0"/>
+    	<EditText android:id="@+id/latitude_textbox_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<TextView android:text="@string/longitude" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0"/>
+    	<EditText android:id="@+id/longitude_textbox_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<Button android:id="@+id/fill_in_current_location_btn_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/fill_in_current_location"/>
+    	<Button android:id="@+id/save_location_btn_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/save_location"/>
+    </LinearLayout>
+    
+    <View android:layout_width="fill_parent" android:layout_height="10dip"></View>
+    <TextView android:text="@string/bt_device_addr"  android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+    
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<TextView android:text="@string/bt_device_name" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0"/>
+    	<EditText android:id="@+id/bt_name_textbox_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="10dip"/>
+    </LinearLayout>
+    
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<TextView android:text="@string/bt_device_mac" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_weight="0"/>
+    	<EditText android:id="@+id/bt_mac_textbox_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginLeft="10dip" android:hint="0F:AA:65:B7:33:24"/>
+    </LinearLayout>
+    
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    	<Button android:id="@+id/detect_device_btn_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/detect_device"/>
+    	<Button android:id="@+id/save_device_btn_in_record_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1" android:text="@string/save_device"/>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="5dip"></View>
+    <Button android:id="@+id/quit_btn_in_create_context_constant" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="right" android:text="@string/quit"/>
+</LinearLayout>

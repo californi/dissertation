@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.hkust.cse.phoneAdapter"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity android:name="edu.hkust.cse.phoneAdapter.activity.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.CreateProfileActivity"
+            android:label="@string/create_profile_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.CreateRuleActivity"
+            android:label="@string/create_rule_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.ViewProfileActivity"
+            android:label="@string/view_profile_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.ViewRuleActivity"
+            android:label="@string/view_rules_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.EditProfileActivity"
+            android:label="@string/edit_profile_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.EditRuleActivity"
+            android:label="@string/edit_rule_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.CreateFilterActivity"
+            android:label="@string/create_filter_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.EditFilterActivity"
+            android:label="@string/edit_filter_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.CreateContextConstantActivity"
+            android:label="@string/create_context_constant_activity_label" />
+        <activity
+            android:name="edu.hkust.cse.phoneAdapter.activity.SearchAndSaveBTDevice"
+            android:label="@string/search_save_device_activity_label" />
+
+        <service android:name="edu.hkust.cse.phoneAdapter.context.ContextManager" />
+        <service android:name="edu.hkust.cse.phoneAdapter.context.AdaptationManager" />
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    android:textSize="20dip"
+    />
+<View android:layout_height="40dip" android:layout_width="fill_parent" />
+<Button
+	android:id="@+id/main_btn_create_profiles"
+    android:layout_width="150dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/main_btn_create_profiles"
+    />
+<Button
+	android:id="@+id/main_btn_create_rules"
+	android:layout_width="150dip"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="@string/main_btn_create_rules"
+/>
+<Button
+	android:id="@+id/main_btn_view_profiles"
+    android:layout_width="150dip"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="@string/main_btn_view_profiles"
+    />
+<Button
+	android:id="@+id/main_btn_view_rules"
+	android:layout_width="150dip"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="@string/main_btn_view_rules"
+/>
+<Button
+	android:id="@+id/main_btn_record_constant"
+	android:layout_width="150dip"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	android:text="@string/record_context_constant"
+/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+-injars /home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar
+-outjars /home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /home/bento/Android/Sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontwarn
+-printconfiguration /home/bento/Dropbox/Mestrado/Testing/PhoneAdater_ServiceTestRule/MainActivity/app/build/intermediates/multi-dex/debug/components.flags
+
+
+-keep class edu.hkust.cse.phoneAdapter.activity.MainActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateProfileActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateRuleActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.ViewProfileActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.ViewRuleActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.EditProfileActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.EditRuleActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateFilterActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.EditFilterActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.CreateContextConstantActivity {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.activity.SearchAndSaveBTDevice {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.context.ContextManager {
+    <init>();
+}
+
+-keep class edu.hkust.cse.phoneAdapter.context.AdaptationManager {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}

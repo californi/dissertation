@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="edu.hkust.cse.phoneAdapter">
+    <uses-sdk android:minSdkVersion="8" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".activity.MainActivity">
+        	<intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.CreateProfileActivity" android:label="@string/create_profile_activity_label"></activity>
+        <activity android:name=".activity.CreateRuleActivity" android:label="@string/create_rule_activity_label"></activity>
+        <activity android:label="@string/view_profile_activity_label" android:name=".activity.ViewProfileActivity"></activity>
+        <activity android:label="@string/view_rules_activity_label" android:name=".activity.ViewRuleActivity"></activity>
+        <activity android:label="@string/edit_profile_activity_label" android:name=".activity.EditProfileActivity"></activity>
+        <activity android:label="@string/edit_rule_activity_label" android:name=".activity.EditRuleActivity"></activity>
+        <activity android:name=".activity.CreateFilterActivity" android:label="@string/create_filter_activity_label"></activity>
+        <activity android:name=".activity.EditFilterActivity" android:label="@string/edit_filter_activity_label"></activity>
+        <activity android:name=".activity.CreateContextConstantActivity" android:label="@string/create_context_constant_activity_label"></activity>
+        <activity android:label="@string/search_save_device_activity_label" android:name=".activity.SearchAndSaveBTDevice"></activity>
+        <service android:name=".context.ContextManager"></service>
+        <service android:name=".context.AdaptationManager"></service>
+    </application>
+</manifest>
